@@ -1,3 +1,15 @@
 .logo{
     max-height: 64px;
 }
+
+@media screen and (max-width: 899px) {
+    .desk, .navStack .btn  {
+        display: none; 
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+      .drawer{
+          display: none;
+      }
+  }
